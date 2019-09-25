@@ -1,7 +1,7 @@
 # mailbox
 Get notification from your mailbox, when there is mail
 
-# mailbox.pi.py (Test code for pi zero)
+**mailbox.pi.py (Test code for pi zero)**
 * Connect door sensor to pin 14 & GND
 * pip install python-pushover
 * sudo cp mailbox.service /usr/systemd/system
