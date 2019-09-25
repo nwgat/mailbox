@@ -11,7 +11,7 @@ Get notification from your mailbox, when there is mail
 
 **TODO**
 - [ ] Convert to MicroPython for WEMOS D1 Mini
-- [ ] Add Deep Sleep for Wemos D1 Mini (20 hours Off, 3 Hours On)
+- [ ] Add Deep Sleep for Wemos D1 Mini (20 hours Off, 4 Hours On)
 - [ ] Monitor Battery and Send notication when low
 
 **Parts List**
