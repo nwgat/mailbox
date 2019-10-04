@@ -1,6 +1,3 @@
-![](mailbox_sensor.d1.png)
-
-# mailbox
 Get notification from your mailbox, when there is mail
 
 **mailbox.pi.py (Test code for pi zero)**
