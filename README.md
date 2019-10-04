@@ -1,3 +1,5 @@
+![](mailbox_sensor.d1.png)
+
 # mailbox
 Get notification from your mailbox, when there is mail
 
