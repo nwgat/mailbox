@@ -1,3 +1,6 @@
+# boot.py
+# nwgat.ninja
+# https://nwgat.ninja/mailboxninja
 import network
 import main
 
