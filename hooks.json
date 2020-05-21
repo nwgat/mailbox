@@ -1,0 +1,21 @@
+# hooks.json
+[
+  {
+    "id": "mailninja",
+    "execute-command": "./mailninja.sh",
+    "response-message": "Executing mailninja webhook...",
+    "trigger-rule":
+    {
+      "match":
+      {
+        "type": "value",
+        "value": "42",
+        "parameter":
+        {
+          "source": "url",
+          "name": "token"
+        }
+      }
+    }
+  }
+]
