@@ -4,6 +4,10 @@
 
 import network
 import main
+import esp
+
+# disable debug
+esp.osdebug(None)
 
 # connect wifi
 sta_if = network.WLAN(network.STA_IF)
