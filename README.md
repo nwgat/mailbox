@@ -1,7 +1,7 @@
+Get notification from your mailbox, when there is mail
+
 **How to setup**
 * [nwat.ninja Setup Guide](http://nwgat.ninja/mailboxninja)
-
-Get notification from your mailbox, when there is mail
 
 **Parts List**
 * [ ] WEMOS D1 Mini
