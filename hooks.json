@@ -1,8 +1,10 @@
 # hooks.json
+# nwgat.ninja
+# https://nwgat.ninja/mailboxninja
 [
   {
     "id": "mailninja",
-    "execute-command": "./mailninja.sh",
+    "execute-command": "./mail.sh",
     "response-message": "Executing mailninja webhook...",
     "trigger-rule":
     {

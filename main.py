@@ -2,13 +2,17 @@
 # nwgat.ninja
 # https://nwgat.ninja/mailboxninja
 
-import machine
 import urequests
-import time
 
 # MailNinja Notification
-response = urequests.get('http://yourdomain.com:9292/hooks/mailninja?token=42')
+hook = urequests.get('http://yourserver:9292/hooks/mailninja?token=42')
+
+# show network status
+status = urequests.get("http://yourserver.com:9292")
+print ('--------------------')
+print ('Network Status:', (status.content))
+print ('--------------------')
 
 # Power Saving mode (RST + GND to wake up with a reed door sensor)
-time.sleep(5)
-machine.deepsleep()
+#machine.deepsleep()
+
