@@ -2,8 +2,6 @@
 # nwgat.ninja
 # https://nwgat.ninja/mailboxninja
 
-import wifi
-import main
-import esp
+import esp, wifi
 
 esp.osdebug(None)
