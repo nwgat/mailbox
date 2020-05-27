@@ -9,7 +9,7 @@ from config import *
 hook = urequests.get((webhook))
 
 # show network status
-status = urequests.get((webhook_server))
+status = urequests.get('https://raw.githubusercontent.com/nwgat/mailboxninja/master/status')
 print ('--------------------')
 print ('Internet Status:', (status.text))
 print ('--------------------')
