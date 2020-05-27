@@ -4,9 +4,11 @@ Get notification from your mailbox, when there is mail
 * [nwat.ninja Setup Guide](http://nwgat.ninja/mailboxninja)
 
 **Parts List**
-* [ ] WEMOS D1 Mini
-* [ ] Door Sensor
-* [ ] Battery
+* [x] WEMOS D1 Mini
+* [x] Wemos Battery Shield
+* [x] Wemos Dual Base Shield (if you want it to be slim)
+* [x] Door Sensor
+* [x] 3.7v Battery
 
 **Resources**
 * https://arduinodiy.wordpress.com/2016/12/25/monitoring-lipo-battery-voltage-with-wemos-d1-minibattery-shield-and-thingspeak/
