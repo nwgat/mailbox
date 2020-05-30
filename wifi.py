@@ -2,7 +2,7 @@
 # nwgat.ninja
 # https://nwgat.ninja/mailboxninja
 
-import network
+import network, urequests, time
 from config import *
 
 # set wifi mode
@@ -14,3 +14,9 @@ wlan.active(True)
 
 # connect
 wlan.connect((ssid), (ssid_pw))
+
+# status
+time.sleep(1)
+status = urequests.get('https://raw.githubusercontent.com/nwgat/mailboxninja/master/status')
+print ('Internet Connection:', ((status.text)))
+print(wlan.ifconfig())
