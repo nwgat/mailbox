@@ -2,7 +2,7 @@
 # nwgat.ninja
 # https://nwgat.ninja/mailboxninja
 
-import urequests, machine
+import urequests, machine, time
 from config import *
 
 # MailNinja Notification
@@ -15,4 +15,5 @@ print ('Internet Status:', (status.text))
 print ('--------------------')
 
 # Power Saving mode (RST + GND to wake up with a reed door sensor)
-#machine.deepsleep()
+time.sleep(30)
+machine.deepsleep()
