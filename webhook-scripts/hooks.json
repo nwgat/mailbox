@@ -5,6 +5,7 @@
   {
     "id": "mailninja",
     "execute-command": "./mail.sh your@email.com",
+    #"execute-command": "./push.sh",
     "response-message": "Executing mailninja webhook...",
     "trigger-rule":
     {
