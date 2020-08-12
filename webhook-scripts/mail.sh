@@ -5,4 +5,4 @@ mailsend-go -sub "Test"  -smtp smtp.gmail.com -port 587 \
       -user jsnow@gmail.com -pass "secret" \
      -from "jsnow@gmail.com" -to  "mjane@example.com" \
      body \
-       -msg "You got mail motha focker :P"
+       -msg "i pity the fool that dont pick up his mail ;)"
