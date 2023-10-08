@@ -1,8 +1,5 @@
 Get notification from your mailbox, when there is mail
 
-**How to setup**
-* [nwat.ninja Setup Guide](http://nwgat.ninja/mailboxninja)
-
 **Parts List**
 * [x] ESP-01 (ESP8266)
 * [x] 3.3v LDO Voltage Regulator
